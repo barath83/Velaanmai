@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebScrapperLoan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/hdfc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Indian Overseas Bank\nஇந்திய வெளிநாட்டு வங்கி"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/hdfc"
+            android:fontFamily="sans-serif"
+            android:hint="Details\விவரங்கள்"
+            android:textAlignment="viewStart"
+            android:textColor="#424242"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="ICICI BANK\nICICI வங்கி"
+            android:layout_below="@id/textView"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/gendertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/gender"
+            android:fontFamily="sans-serif"
+            android:hint="Details\விவரங்கள்"
+            android:textAlignment="viewStart"
+            android:textColor="#424242"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/bp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="HDFC Bank\nHDFC வங்கி"
+            android:layout_below="@id/gendertext"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/bptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/bp"
+            android:fontFamily="sans-serif"
+            android:hint="Details\விவரங்கள்"
+            android:textAlignment="viewStart"
+            android:textColor="#424242"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/cholo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Farm Operating Loans\nபண்ணை செயல்பாட்டு கடன்கள்"
+            android:layout_below="@id/bptext"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/cholotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cholo"
+            android:fontFamily="sans-serif"
+            android:hint="Details\விவரங்கள்"
+            android:textAlignment="viewStart"
+            android:textColor="#424242"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/obesity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Farm Ownership Loans\nபண்ணை உரிமையாளர் கடன்கள்"
+            android:layout_below="@id/cholotext"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/obestext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/obesity"
+            android:fontFamily="sans-serif"
+            android:hint="Details\nவிவரங்கள்"
+            android:textAlignment="viewStart"
+            android:textColor="#424242"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/dia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Farm Storage Facility Loans"
+            android:layout_below="@id/obestext"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/diatext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/dia"
+            android:fontFamily="sans-serif"
+            android:hint="Details\nவிவரங்கள்"
+            android:textAlignment="viewStart"
+            android:textColor="#424242"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

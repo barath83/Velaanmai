@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".longweather">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="மாதாந்திர மழைப்பொழிவு\nMonthly Rainfall Prediction"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/entervalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="மாதத்தின் வரிசை எண்ணை கொடுங்கள்\n(ஜனவரி-1,பிப்ரவரி-2...)\nGive the ordered number for month\n(January-1,February-2...)"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="203dp"
+        android:layout_height="100dp"
+        android:id="@+id/enter"
+        android:padding="20dp"
+        android:layout_below="@id/entervalue"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@+id/enter"
+        android:layout_centerHorizontal="true"
+
+        android:text="மழை அளவு தெரிய\nTo Know Amount of Rainfall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:hint="இங்கு மழைவீழ்ச்சியின் மதிப்பு\nValue of Rainfall here" />
+</RelativeLayout>
